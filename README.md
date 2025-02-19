@@ -1,0 +1,3 @@
+# PHP Loose Comparison Pitfall
+
+This repository demonstrates a common pitfall in PHP: unexpected behavior arising from loose comparison (==) of different data types.  The example shows how comparing a string '1' and integer 1 using loose comparison results in a true condition, while strict comparison (===) correctly identifies them as unequal due to type mismatch.  This can lead to hard-to-debug errors in your PHP applications, particularly when dealing with user input or data from external sources.
